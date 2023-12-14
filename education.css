@@ -1,0 +1,274 @@
+.heading{color: brown;}
+
+.paracolor{
+    color:#0a0024;
+}
+
+
+
+
+.nav{
+     width: 100%;
+height: 40px;
+text-align: center;
+     border: 2px solid black;
+     border-radius: 9px;
+background-color: rgba(0, 0, 0, 0.82);
+     display: flex;
+     align-items: center;
+
+}
+
+
+.nav .menu a{
+margin: 50px;
+font-size: 20px;
+text-decoration: none;
+font-family: 'Baloo Bhai 2', cursive;
+}
+.nav .menu a:hover{
+color: darkmagenta;
+text-decoration: underline;
+}
+.nav .menu a:active{
+color: darkturquoise;
+text-decoration: underline;
+}
+
+
+
+.masti{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;min-height: 40vh;
+  
+}
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 10em;
+  transition: 0.5s;
+  line-height: 0.8em;
+}
+h1 span
+{
+  position: relative;
+  text-transform: uppercase;
+  display: block;
+  transition: 0.5s;
+ 
+
+}
+h1 span:nth-child(1):before
+{
+  content: '';
+  position: absolute;
+  top:calc(50% - 15px);
+  right: 35%;
+  width: 35%;
+  height: 30px;
+  background: #2c1de3;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: 0.5s;
+ 
+}
+h1:hover span:nth-child(1):before
+{
+  transform: scaleX(1);
+}
+
+
+
+h1 span:nth-child(2):before
+{
+  content: '';
+  position: absolute;
+  top:calc(50% - 15px);
+  left: 0;
+  width: 55%;
+  height: 30px;
+  background: #2c1de3;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: 0.5s;
+
+}
+h1:hover span:nth-child(2):before
+{
+  transform: scaleX(1);
+}
+
+
+h1 span hide 
+{
+  transition: 0.5s;
+  transition-delay: 1s;
+}
+h1:hover span hide
+{
+  transition-delay: 1s;
+  color: #f00;
+  opacity: 0.9;
+}
+h1:hover span:nth-child(1) hide
+{
+  padding-right: 30px;
+}
+h1:hover span:nth-child(2) hide
+{
+  padding-right: 30px;
+}
+  .nav{
+     width: 100%;
+height: 40px;
+text-align: center;
+     border: 2px solid black;
+     border-radius: 9px;
+background-color: rgba(0, 0, 0, 0.82);
+     display: flex;
+     align-items: center;
+
+}
+
+
+.nav .menu a{
+margin: 50px;
+font-size: 20px;
+text-decoration: none;
+font-family: 'Baloo Bhai 2', cursive;
+}
+.nav .menu a:hover{
+color: darkmagenta;
+text-decoration: underline;
+}
+.nav .menu a:active{
+color: darkturquoise;
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.masti{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;min-height: 40vh;
+  
+}
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 7em;
+  transition: 0.5s;
+  line-height: 0.8em;
+}
+h1 span
+{
+  position: relative;
+  text-transform: uppercase;
+  display: block;
+  transition: 0.5s;
+ 
+
+}
+h1 span:nth-child(1):before
+{
+  content: '';
+  position: absolute;
+  top:calc(50% - 15px);
+  right: 35%;
+  width: 35%;
+  height: 30px;
+  background: #2c1de3;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: 0.5s;
+ 
+}
+h1:hover span:nth-child(1):before
+{
+  transform: scaleX(1);
+}
+
+
+
+h1 span:nth-child(2):before
+{
+  content: '';
+  position: absolute;
+  top:calc(50% - 15px);
+  left: 0;
+  width: 55%;
+  height: 30px;
+  background: #2c1de3;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: 0.5s;
+ 
+}
+h1:hover span:nth-child(2):before
+{
+  transform: scaleX(1);
+}
+
+
+h1 span hide 
+{
+  transition: 0.5s;
+  transition-delay: 1s;
+}
+h1:hover span hide
+{
+  transition-delay: 1s;
+  color: #f00;
+  opacity: 0.9;
+}
+h1:hover span:nth-child(1) hide
+{
+  padding-right: 30px;
+}
+h1:hover span:nth-child(2) hide
+{
+  padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
